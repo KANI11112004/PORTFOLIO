@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Bree Serif', serif;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Lumanosimo', cursive;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background: url(background.jpg);
+    background-size: cover;
+}
+
+.navbar {
+    width: 100vw;
+    height: 8vh;
+    background-color: rgba(135, 207, 235, 0.403);
+    color: darkblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar img {
+    height: 45px;
+    width: 45px;
+    padding: 0px 14px;
+}
+
+p {
+    color: darkblue;
+}
+
+.intro {
+    width: 50vw;
+    height: 50vh;
+    color: darkblue;
+    display: flex;
+    align-items: center;
+    margin: 0px 40px;
+}
+
+.photo {
+    margin: 30px 50px;
+}
+
+.photo img {
+    height: 260px;
+    width: 260px;
+    border-radius: 50%;
+}
+
+h2 {
+    margin: 10px 0px;
+}
+
+.about {
+    color: darkblue;
+    width: 50vw;
+    padding: 10px 40px;
+}
+
+.about h3 {
+    margin: 10px 0px;
+}
+
+.about p {
+    text-align: justify;
+}
+
+.skills {
+    height: 50vh;
+    position: absolute;
+    top: 15vh;
+    right: 0;
+    margin: 0px 35px;
+}
+
+.skillset {
+    display: flex;
+}
+
+.skills h3 {
+    margin: 10px 0px;
+    color: darkblue;
+    text-align: center;
+}
+
+.skillbox {
+    width: 12vw;
+    height: 25vh;
+    border: 2px solid darkblue;
+    margin: 5px 10px;
+    color: darkblue;
+    text-align: center;
+    padding: 5px 10px;
+    box-shadow: 5px 5px 4px darkblue;
+}
+
+.skillbox img {
+    width: 3vw;
+    height: 5vh;
+}
+
+.skillbox h4 {
+    padding: 5px 0px;
+}
+
+.skillbox p {
+    text-align: justify;
+}
+
+.contact {
+    width: 30vw;
+    height: 30vh;
+    position: absolute;
+    bottom: 7vh;
+    right: 8vw;
+    display: flex;
+    flex-direction: column;
+    color: darkblue;
+}
+
+.contact h3,
+input,
+textarea {
+    padding: 3px 5px;
+    margin: 8px 5px;
+}
+
+.contact button {
+    height: 4vh;
+    border-radius: 10px;
+    border: 1px solid darkblue;
+    color: white;
+    background-color: darkblue;
+}
